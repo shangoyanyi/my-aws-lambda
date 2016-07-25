@@ -1,11 +1,10 @@
 # My AWS Lambda
-Use Amazon lambda to build some interesting tools. 
+A sample project of Amazon lambda (and DynamoDB as well).
 
-## mod-movies-crawler
-A web crawler to get what movies are on MOD now and update dynamoDB.
+## lambda module: mod-movies-crawler
+A web crawler to get MOD movies and update dynamoDB.
 
-
-## slack-mod-movies
-A slack request handler to answer what movies are on MOD now from dynamoDB.
+## lambda module: mod-movies-slackbot
+A slack request handler to answer MOD movies from dynamoDB.
 
 
