@@ -1,8 +1,6 @@
 /*
- * Complete this config file to use dynamoDB/S3 and other aws services.
- * You need to use AMI to create your own accessKeyId and secretAccessKey. 
+ * aws configs. 
  */
-
 var dynamoDBConfig = {
     'accessKeyId': 'YOUR_ACCESS_KEY_ID',
     'secretAccessKey': 'YOUR_SECRET_ACCESS_KEY',
