@@ -25,7 +25,7 @@ exports.handler = (event, context, callback) => {
             
             // 建立符合規範的 slack response body
             var responseBody = {
-                text: "今天的電影清單如下:",
+                text: "今天的電影清單 (更新時間: " + result.Items[0].update_time.S + " ):",
                 attachments: JSON.parse(result.Items[0].data.S)
             }
             
