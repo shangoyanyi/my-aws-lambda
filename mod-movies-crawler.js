@@ -8,7 +8,8 @@ var db = new AWS.DynamoDB(AWSConfig.getDynamoDBConfig());
 var request = require('request');
 var cheerio = require('cheerio');
 
-Date.prototype.simpleDateFormat = require('./app/src/DatePrototype').simpleDateFormat;
+var DateExtension = require('./app/src/util/DateExtension.js');
+Date.prototype.simpleDateFormat = DateExtension.simpleDateFormat;
 
 
 /*
